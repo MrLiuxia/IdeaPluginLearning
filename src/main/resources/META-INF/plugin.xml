@@ -20,5 +20,9 @@
 
     <actions>
         <!-- Add your actions here -->
+        <group id="PluginLearning.SampleHello" text="Greeting" description="Greeting menu">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action class="HelloAction" id="PluginLearning.Textboxes" text="Hello" description="Say hello"/>
+        </group>
     </actions>
 </idea-plugin>
